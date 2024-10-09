@@ -1,5 +1,5 @@
 // bg-blue-950 border-blue-950
-// bg-zinc-900 border-zinc-900
+// bg-zinc-950 border-zinc-950
 // bg-rose-900 border-rose-900
 // bg-amber-700 border-amber-700
 // bg-red-600 border-red-600
@@ -7,7 +7,7 @@
 import { PRODUCT_PRICES } from "@/config/products";
 
 export const COLORS = [
-  { label: "Black", value: "black", tw: "zinc-900" },
+  { label: "Black", value: "black", tw: "zinc-950" },
   { label: "Blue", value: "blue", tw: "blue-950" },
   { label: "Rose", value: "rose", tw: "rose-900" },
   { label: "Tan", value: "tan", tw: "amber-700" },
