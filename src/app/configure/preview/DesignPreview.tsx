@@ -73,7 +73,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
         className='pointer-events-none select-none absolute inset-0 overflow-hidden flex justify-center'>
         <Confetti
           active={showConfetti}
-          config={{ elementCount: 200, spread: 90 }}
+          config={{ elementCount: 500, spread: 150 }}
         />
       </div>
 
