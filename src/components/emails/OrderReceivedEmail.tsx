@@ -63,11 +63,11 @@ const OrderReceivedEmail = ({
           <Hr style={global.hr} />
           <Section style={global.defaultPadding}>
             <Row style={{ display: 'inline-flex gap-16', marginBottom: 40 }}>
-              <Column style={{}}>
+              <Column style={{width:50}}>
                 <Text style={global.paragraphWithBold}>Order Number</Text>
                 <Text style={track.number}>{orderId}</Text>
               </Column>
-              <Column style={{marginLeft: 20}}>
+              <Column style={{paddingLeft: 20}}>
                 <Text style={global.paragraphWithBold}>Order Date</Text>
                 <Text style={track.number}>{orderDate}</Text>
               </Column>
@@ -126,6 +126,7 @@ const global = {
   },
   paragraphWithBold: { ...paragraph, fontWeight: 'bold' },
   heading: {
+    color: 'black',
     fontSize: '32px',
     lineHeight: '1.3',
     fontWeight: '700',
