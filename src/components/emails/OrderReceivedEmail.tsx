@@ -188,6 +188,7 @@ const message = {
 
 const adressTitle = {
   ...paragraph,
+  color: 'black',
   fontSize: '15px',
   fontWeight: 'bold',
 }
