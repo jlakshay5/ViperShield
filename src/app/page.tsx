@@ -1,3 +1,4 @@
+import OrderReceivedEmail from "@/components/emails/OrderReceivedEmail";
 import { Icons } from "@/components/Icons";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
@@ -256,6 +257,8 @@ export default function Home() {
           </ul>
         </MaxWidthWrapper>
       </section>
+     
     </div>
+    
   );
 }
